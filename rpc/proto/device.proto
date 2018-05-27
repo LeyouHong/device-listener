@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package proto;
+
+service Device {
+	rpc SignUp(SignUpRequest) returns (Response){}
+	rpc GetDeviceInfo(DataRequest) returns (Response) {}
+}
+
+message SignUpRequest
+{
+	int32 	id = 1; 		//Device ID
+	string	name = 2;		//Device Name
+	string addr = 3;		//Device address
+	string capabilities = 4;//Device capabilities
+	string action = 5;		//Register or Deregister
+	string ts = 6;			//TimeStamp
+	string services = 7;    //List of services  the device will use
+	string uuid = 8;	   //Registered user of the device
+}
+
+message Response
+{
+	string res = 1;	// response
+}
+
+message DataRequest
+{
+	string key = 1;
+	string start = 2;
+	string end = 3;
+}
