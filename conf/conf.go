@@ -1,7 +1,7 @@
 package conf
 
 import (
-	"github.com/device-listener/util"
+	"github.com/LeyouHong/device-listener/util"
 	"github.com/syndtr/goleveldb/leveldb"
 	"os"
 )

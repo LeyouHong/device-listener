@@ -1,7 +1,7 @@
 package api
 
 import (
-	pb "github.com/device-listener/rpc/proto"
+	pb "github.com/LeyouHong/device-listener/rpc/proto"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"log"

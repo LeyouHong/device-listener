@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/device-listener/api"
+	"github.com/LeyouHong/device-listener/api"
 	"log"
 )
 

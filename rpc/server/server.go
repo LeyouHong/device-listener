@@ -3,9 +3,9 @@ package server
 import (
 	"encoding/json"
 	"fmt"
-	c "github.com/device-listener/conf"
-	"github.com/device-listener/database"
-	pb "github.com/device-listener/rpc/proto"
+	c "github.com/LeyouHong/device-listener/conf"
+	"github.com/LeyouHong/device-listener/database"
+	pb "github.com/LeyouHong/device-listener/rpc/proto"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"log"

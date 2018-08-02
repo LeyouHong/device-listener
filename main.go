@@ -1,9 +1,9 @@
 package main
 
 import (
-	c "github.com/device-listener/conf"
-	"github.com/device-listener/database"
-	s "github.com/device-listener/rpc/server"
+	c "github.com/LeyouHong/device-listener/conf"
+	"github.com/LeyouHong/device-listener/database"
+	s "github.com/LeyouHong/device-listener/rpc/server"
 )
 
 func main() {
